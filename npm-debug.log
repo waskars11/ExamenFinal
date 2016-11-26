@@ -1,0 +1,395 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express',
+1 verbose cli   'generator',
+1 verbose cli   '@4' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of C:\Users\LAB-SISTEMAS\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\LAB-SISTEMAS\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'express', null ]
+7 verbose cache add spec express
+8 silly cache add args [ 'generator', null ]
+9 verbose cache add spec generator
+10 silly cache add args [ '@4', null ]
+11 verbose cache add spec @4
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'express',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'express',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed express@*
+14 verbose addNamed "*" is a valid semver range for express
+15 silly addNameRange { name: 'express', range: '*', hasData: false }
+16 silly mapToRegistry name express
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/express
+20 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: 'generator',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'generator',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 silly addNamed generator@*
+23 verbose addNamed "*" is a valid semver range for generator
+24 silly addNameRange { name: 'generator', range: '*', hasData: false }
+25 silly mapToRegistry name generator
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/generator
+29 verbose addNameRange registry:https://registry.npmjs.org/generator not in flight; fetching
+30 silly cache add parsed spec Result {
+30 silly cache add   raw: '@4',
+30 silly cache add   scope: null,
+30 silly cache add   name: null,
+30 silly cache add   rawSpec: '@4',
+30 silly cache add   spec: 'C:\\proyecto\\proyectoBase\\@4',
+30 silly cache add   type: 'local' }
+31 error addLocal Could not install C:\proyecto\proyectoBase\@4
+32 verbose request uri https://registry.npmjs.org/generator
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 09:39:25
+35 verbose request id d4d3301e648b91d1
+36 verbose etag W/"522e44a3-3d7c"
+37 verbose lastModified Mon, 09 Sep 2013 21:58:59 GMT
+38 http request GET https://registry.npmjs.org/generator
+39 verbose request uri https://registry.npmjs.org/express
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 09:39:25
+42 verbose etag W/"58397f55-850f1"
+43 verbose lastModified Sat, 26 Nov 2016 12:25:57 GMT
+44 http request GET https://registry.npmjs.org/express
+45 http 304 https://registry.npmjs.org/express
+46 verbose headers { date: 'Sat, 26 Nov 2016 13:39:23 GMT',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   'cache-control': 'max-age=300',
+46 verbose headers   etag: 'W/"58397f55-850f1"',
+46 verbose headers   age: '225',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'x-served-by': 'cache-atl6242-ATL',
+46 verbose headers   'x-cache': 'HIT',
+46 verbose headers   'x-cache-hits': '2',
+46 verbose headers   'x-timer': 'S1480167563.917917,VS0,VE0',
+46 verbose headers   vary: 'Accept-Encoding' }
+47 silly get cb [ 304,
+47 silly get   { date: 'Sat, 26 Nov 2016 13:39:23 GMT',
+47 silly get     via: '1.1 varnish',
+47 silly get     'cache-control': 'max-age=300',
+47 silly get     etag: 'W/"58397f55-850f1"',
+47 silly get     age: '225',
+47 silly get     connection: 'keep-alive',
+47 silly get     'x-served-by': 'cache-atl6242-ATL',
+47 silly get     'x-cache': 'HIT',
+47 silly get     'x-cache-hits': '2',
+47 silly get     'x-timer': 'S1480167563.917917,VS0,VE0',
+47 silly get     vary: 'Accept-Encoding' } ]
+48 verbose etag https://registry.npmjs.org/express from cache
+49 verbose get saving express to C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+50 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+51 silly addNameRange versions [ 'express',
+51 silly addNameRange   [ '0.14.0',
+51 silly addNameRange     '0.14.1',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.0.6',
+51 silly addNameRange     '1.0.7',
+51 silly addNameRange     '1.0.8',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.1.0',
+51 silly addNameRange     '2.1.1',
+51 silly addNameRange     '2.2.0',
+51 silly addNameRange     '2.2.1',
+51 silly addNameRange     '2.2.2',
+51 silly addNameRange     '2.3.0',
+51 silly addNameRange     '2.3.1',
+51 silly addNameRange     '2.3.2',
+51 silly addNameRange     '2.3.3',
+51 silly addNameRange     '2.3.4',
+51 silly addNameRange     '2.3.5',
+51 silly addNameRange     '2.3.6',
+51 silly addNameRange     '2.3.7',
+51 silly addNameRange     '2.3.8',
+51 silly addNameRange     '2.3.9',
+51 silly addNameRange     '2.3.10',
+51 silly addNameRange     '2.3.11',
+51 silly addNameRange     '2.3.12',
+51 silly addNameRange     '2.4.0',
+51 silly addNameRange     '2.4.1',
+51 silly addNameRange     '2.4.2',
+51 silly addNameRange     '2.4.3',
+51 silly addNameRange     '2.4.4',
+51 silly addNameRange     '2.4.5',
+51 silly addNameRange     '2.4.6',
+51 silly addNameRange     '2.4.7',
+51 silly addNameRange     '2.5.0',
+51 silly addNameRange     '2.5.1',
+51 silly addNameRange     '2.5.2',
+51 silly addNameRange     '2.5.3',
+51 silly addNameRange     '2.5.4',
+51 silly addNameRange     '2.5.5',
+51 silly addNameRange     '2.5.6',
+51 silly addNameRange     '2.5.7',
+51 silly addNameRange     '2.5.8',
+51 silly addNameRange     '2.5.9',
+51 silly addNameRange     '2.5.10',
+51 silly addNameRange     '2.5.11',
+51 silly addNameRange     '3.0.0',
+51 silly addNameRange     '3.0.1',
+51 silly addNameRange     '3.0.2',
+51 silly addNameRange     '3.0.3',
+51 silly addNameRange     '3.0.4',
+51 silly addNameRange     '3.0.5',
+51 silly addNameRange     '3.0.6',
+51 silly addNameRange     '3.1.0',
+51 silly addNameRange     '3.1.1',
+51 silly addNameRange     '3.1.2',
+51 silly addNameRange     '3.2.0',
+51 silly addNameRange     '3.2.1',
+51 silly addNameRange     '3.2.2',
+51 silly addNameRange     '3.2.3',
+51 silly addNameRange     '3.2.4',
+51 silly addNameRange     '3.2.5',
+51 silly addNameRange     '3.2.6',
+51 silly addNameRange     '3.3.0',
+51 silly addNameRange     '3.3.1',
+51 silly addNameRange     '3.3.2',
+51 silly addNameRange     '3.3.3',
+51 silly addNameRange     '3.3.4',
+51 silly addNameRange     '3.3.5',
+51 silly addNameRange     '3.3.6',
+51 silly addNameRange     '1.0.0-beta',
+51 silly addNameRange     '1.0.0-beta2',
+51 silly addNameRange     '1.0.0-rc',
+51 silly addNameRange     '1.0.0-rc2',
+51 silly addNameRange     '1.0.0-rc3',
+51 silly addNameRange     '1.0.0-rc4',
+51 silly addNameRange     '2.0.0-beta',
+51 silly addNameRange     '2.0.0-beta2',
+51 silly addNameRange     '2.0.0-beta3',
+51 silly addNameRange     '2.0.0-rc',
+51 silly addNameRange     '2.0.0-rc2',
+51 silly addNameRange     '2.0.0-rc3',
+51 silly addNameRange     '3.0.0-alpha1',
+51 silly addNameRange     '3.0.0-alpha2',
+51 silly addNameRange     '3.0.0-alpha3',
+51 silly addNameRange     '3.0.0-alpha4',
+51 silly addNameRange     '3.0.0-alpha5',
+51 silly addNameRange     '3.0.0-beta1',
+51 silly addNameRange     '3.0.0-beta2',
+51 silly addNameRange     '3.0.0-beta3',
+51 silly addNameRange     '3.0.0-beta4',
+51 silly addNameRange     '3.0.0-beta6',
+51 silly addNameRange     '3.0.0-beta7',
+51 silly addNameRange     '3.0.0-rc1',
+51 silly addNameRange     '3.0.0-rc2',
+51 silly addNameRange     '3.0.0-rc3',
+51 silly addNameRange     '3.0.0-rc4',
+51 silly addNameRange     '3.0.0-rc5',
+51 silly addNameRange     '3.3.7',
+51 silly addNameRange     '3.3.8',
+51 silly addNameRange     '3.4.0',
+51 silly addNameRange     '3.4.1',
+51 silly addNameRange     '3.4.2',
+51 silly addNameRange     '3.4.3',
+51 silly addNameRange     '3.4.4',
+51 silly addNameRange     '3.4.5',
+51 silly addNameRange     '3.4.6',
+51 silly addNameRange     '3.4.7',
+51 silly addNameRange     '3.4.8',
+51 silly addNameRange     '4.0.0-rc1',
+51 silly addNameRange     '4.0.0-rc2',
+51 silly addNameRange     '3.5.0',
+51 silly addNameRange     '4.0.0-rc3',
+51 silly addNameRange     '4.0.0-rc4',
+51 silly addNameRange     '3.5.1',
+51 silly addNameRange     '4.0.0',
+51 silly addNameRange     '3.5.2',
+51 silly addNameRange     '4.1.0',
+51 silly addNameRange     '4.1.1',
+51 silly addNameRange     '3.5.3',
+51 silly addNameRange     '4.1.2',
+51 silly addNameRange     '3.6.0',
+51 silly addNameRange     '4.2.0',
+51 silly addNameRange     '3.7.0',
+51 silly addNameRange     '3.8.0',
+51 silly addNameRange     '4.3.0',
+51 silly addNameRange     '4.3.1',
+51 silly addNameRange     '3.8.1',
+51 silly addNameRange     '4.3.2',
+51 silly addNameRange     '3.9.0',
+51 silly addNameRange     '4.4.0',
+51 silly addNameRange     '4.4.1',
+51 silly addNameRange     '3.10.0',
+51 silly addNameRange     '3.10.1',
+51 silly addNameRange     '3.10.2',
+51 silly addNameRange     '3.10.3',
+51 silly addNameRange     '3.10.4',
+51 silly addNameRange     '4.4.2',
+51 silly addNameRange     '3.10.5',
+51 silly addNameRange     '4.4.3',
+51 silly addNameRange     '3.11.0',
+51 silly addNameRange     '4.4.4',
+51 silly addNameRange     '3.12.0',
+51 silly addNameRange     '3.12.1',
+51 silly addNameRange     '4.4.5',
+51 silly addNameRange     '3.13.0',
+51 silly addNameRange     '4.5.0',
+51 silly addNameRange     '4.5.1',
+51 silly addNameRange     '3.14.0',
+51 silly addNameRange     '4.6.0',
+51 silly addNameRange     '4.6.1',
+51 silly addNameRange     '3.15.0',
+51 silly addNameRange     '4.7.0',
+51 silly addNameRange     '3.15.1',
+51 silly addNameRange     '4.7.1',
+51 silly addNameRange     '3.15.2',
+51 silly addNameRange     '4.7.2',
+51 silly addNameRange     '4.7.3',
+51 silly addNameRange     '3.15.3',
+51 silly addNameRange     '4.7.4',
+51 silly addNameRange     '3.16.0',
+51 silly addNameRange     '4.8.0',
+51 silly addNameRange     '3.16.1',
+51 silly addNameRange     '4.8.1',
+51 silly addNameRange     '3.16.2',
+51 silly addNameRange     '4.8.2',
+51 silly addNameRange     '3.16.3',
+51 silly addNameRange     '3.16.4',
+51 silly addNameRange     '4.8.3',
+51 silly addNameRange     '3.16.5',
+51 silly addNameRange     '3.16.6',
+51 silly addNameRange     '4.8.4',
+51 silly addNameRange     '3.16.7',
+51 silly addNameRange     '4.8.5',
+51 silly addNameRange     '3.16.8',
+51 silly addNameRange     '4.8.6',
+51 silly addNameRange     '3.16.9',
+51 silly addNameRange     '4.8.7',
+51 silly addNameRange     '3.16.10',
+51 silly addNameRange     '4.8.8',
+51 silly addNameRange     '3.17.0',
+51 silly addNameRange     '3.17.1',
+51 silly addNameRange     '4.9.0',
+51 silly addNameRange     '3.17.2',
+51 silly addNameRange     '4.9.1',
+51 silly addNameRange     '4.9.2',
+51 silly addNameRange     '3.17.3',
+51 silly addNameRange     '4.9.3',
+51 silly addNameRange     '3.17.4',
+51 silly addNameRange     '4.9.4',
+51 silly addNameRange     '3.17.5',
+51 silly addNameRange     '4.9.5',
+51 silly addNameRange     '3.17.6',
+51 silly addNameRange     '3.17.7',
+51 silly addNameRange     '4.9.6',
+51 silly addNameRange     '4.9.7',
+51 silly addNameRange     '3.17.8',
+51 silly addNameRange     '4.9.8',
+51 silly addNameRange     '3.18.0',
+51 silly addNameRange     '3.18.1',
+51 silly addNameRange     '4.10.0',
+51 silly addNameRange     '3.18.2',
+51 silly addNameRange     '4.10.1',
+51 silly addNameRange     '5.0.0-alpha.1',
+51 silly addNameRange     '3.18.3',
+51 silly addNameRange     '4.10.2',
+51 silly addNameRange     '3.18.4',
+51 silly addNameRange     '4.10.3',
+51 silly addNameRange     '4.10.4',
+51 silly addNameRange     '4.10.5',
+51 silly addNameRange     '3.18.5',
+51 silly addNameRange     '3.18.6',
+51 silly addNameRange     '4.10.6',
+51 silly addNameRange     '4.10.7',
+51 silly addNameRange     '3.19.0',
+51 silly addNameRange     '4.10.8',
+51 silly addNameRange     '4.11.0',
+51 silly addNameRange     '3.19.1',
+51 silly addNameRange     '4.11.1',
+51 silly addNameRange     '3.19.2',
+51 silly addNameRange     '4.11.2',
+51 silly addNameRange     '3.20.0',
+51 silly addNameRange     '4.12.0',
+51 silly addNameRange     '3.20.1',
+51 silly addNameRange     '4.12.1',
+51 silly addNameRange     '4.12.2',
+51 silly addNameRange     '3.20.2',
+51 silly addNameRange     '4.12.3',
+51 silly addNameRange     '3.20.3',
+51 silly addNameRange     '4.12.4',
+51 silly addNameRange     '3.21.0',
+51 silly addNameRange     '4.13.0',
+51 silly addNameRange     '3.21.1',
+51 silly addNameRange     '4.13.1',
+51 silly addNameRange     '5.0.0-alpha.2',
+51 silly addNameRange     '3.21.2',
+51 silly addNameRange     '4.13.2',
+51 silly addNameRange     '4.13.3',
+51 silly addNameRange     '4.13.4',
+51 silly addNameRange     '4.14.0' ] ]
+52 silly addNamed express@4.14.0
+53 verbose addNamed "4.14.0" is a plain semver version for express
+54 silly cache afterAdd express@4.14.0
+55 verbose afterAdd C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\express\4.14.0\package\package.json not in flight; writing
+56 verbose afterAdd C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\express\4.14.0\package\package.json written
+57 http 304 https://registry.npmjs.org/generator
+58 verbose headers { date: 'Sat, 26 Nov 2016 13:39:23 GMT',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   'cache-control': 'max-age=300',
+58 verbose headers   etag: 'W/"522e44a3-3d7c"',
+58 verbose headers   age: '0',
+58 verbose headers   connection: 'keep-alive',
+58 verbose headers   'x-served-by': 'cache-atl6250-ATL',
+58 verbose headers   'x-cache': 'HIT',
+58 verbose headers   'x-cache-hits': '1',
+58 verbose headers   'x-timer': 'S1480167563.919268,VS0,VE192',
+58 verbose headers   vary: 'Accept-Encoding' }
+59 silly get cb [ 304,
+59 silly get   { date: 'Sat, 26 Nov 2016 13:39:23 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     'cache-control': 'max-age=300',
+59 silly get     etag: 'W/"522e44a3-3d7c"',
+59 silly get     age: '0',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-atl6250-ATL',
+59 silly get     'x-cache': 'HIT',
+59 silly get     'x-cache-hits': '1',
+59 silly get     'x-timer': 'S1480167563.919268,VS0,VE192',
+59 silly get     vary: 'Accept-Encoding' } ]
+60 verbose etag https://registry.npmjs.org/generator from cache
+61 verbose get saving generator to C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\registry.npmjs.org\generator\.cache.json
+62 silly addNameRange number 2 { name: 'generator', range: '*', hasData: true }
+63 silly addNameRange versions [ 'generator',
+63 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '1.0.0', '1.0.1' ] ]
+64 silly addNamed generator@1.0.1
+65 verbose addNamed "1.0.1" is a plain semver version for generator
+66 silly cache afterAdd generator@1.0.1
+67 verbose afterAdd C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\generator\1.0.1\package\package.json not in flight; writing
+68 verbose afterAdd C:\Users\LAB-SISTEMAS\AppData\Roaming\npm-cache\generator\1.0.1\package\package.json written
+69 verbose stack Error: ENOENT: no such file or directory, open 'C:\proyecto\proyectoBase\@4'
+69 verbose stack     at Error (native)
+70 verbose cwd C:\proyecto\proyectoBase
+71 error Windows_NT 6.1.7601
+72 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "express" "generator" "@4"
+73 error node v4.2.2
+74 error npm  v2.14.7
+75 error path C:\proyecto\proyectoBase\@4
+76 error code ENOENT
+77 error errno -4058
+78 error syscall open
+79 error enoent ENOENT: no such file or directory, open 'C:\proyecto\proyectoBase\@4'
+79 error enoent This is most likely not a problem with npm itself
+79 error enoent and is related to npm not being able to find a file.
+80 verbose exit [ -4058, true ]
